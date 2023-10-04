@@ -1,0 +1,156 @@
+.events {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .events .ant-badge-status {
+    width: 100%;
+    overflow: hidden;
+    font-size: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  .notes-month {
+    font-size: 28px;
+    text-align: center;
+  }
+  .notes-month section {
+    font-size: 28px;
+  }
+
+.expand{
+    margin-left: 2px;
+    margin-top: 54px;
+    /* padding: 1px 1px 1px 1px; */
+    position:absolute;
+    top :-56px;
+}
+#components-layout-demo-fixed-sider .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.2);
+}
+.site-layout .site-layout-background {
+  background: #fff;
+}
+.Ed{
+  font-size: 40px;
+}
+.add{
+  margin-bottom: 20px;
+}
+#app {
+}
+
+h1 {
+  text-align: center;
+}
+
+/* .containerr {
+  width: 600px;
+  margin: auto;
+} */
+
+.grid td {
+  width: 120px;
+  height: 50px;
+  padding: 50px 30px;
+  border: 2px solid orange;
+  text-align: center;
+  float: left;
+  margin: 5px;
+}
+
+.grid td:hover {
+  opacity: .7;
+  cursor: pointer;
+}
+
+.reserved {
+  background: orange;
+  color: #fff;
+  display: inline-block;
+}
+
+.reserved::after {
+  content: 'RESERVED'
+}
+
+.available::after {
+  content: 'AVAILABLE'
+}
+
+.available {
+  color: #333;
+}
+
+li {
+  list-style: none;
+}
+.containerrt , .containertr{
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.box {
+  width:500px;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(219, 219, 219);
+
+}
+.login-form , .forms{
+
+  max-width: 600px;
+  
+}
+.login-form-forgot {
+  float: right;
+}
+.ant-col-rtl .login-form-forgot {
+  float: left;
+}
+.login-form-button {
+  width: 100%;
+  background-color: red
+}
+.events {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.events .ant-badge-status {
+  width: 100%;
+  overflow: hidden;
+  font-size: 12px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.notes-month {
+  font-size: 28px;
+  text-align: center;
+}
+.notes-month section {
+  font-size: 28px;
+}
+.tablee{
+  width:100%;
+  text-align: center;
+}
+tr{
+  font-size: 14px;
+}
+.thh{
+  /* padding: 5px; */
+  padding-right: 11px;
+}
+.btn{
+  font-size: 12px;
+}
+input[type=checkbox]{
+  margin: 5px;
+}
